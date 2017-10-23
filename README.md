@@ -17,7 +17,7 @@ You've chosen:  T
 Done!!!
 ```
 
-### Option with mandatory argument
+### Option with mandatory argument: F
 ```
 $ ./test.sh -f
 Chosen option requires an argument
@@ -28,7 +28,7 @@ OPTARG = FILE
 Done!!!
 ```
 
-### Option with mandatory argument
+### Option with mandatory argument: G
 ```
 $ ./test.sh -g
 Chosen option requires an argument

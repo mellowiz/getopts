@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
 
+# Usage as an individual function
 usage() {
     echo "Usage: cmd [-h] [-t] [-f FILE] [-g FILE]"
 }
@@ -32,8 +33,11 @@ while getopts ":htf:g:" opt; do
       ;;
   esac
 done
+
+# It's a good rule to manually decrease OPTIND after calling getopts
 shift $((OPTIND -1))
 
+# This if-loop is required to catch the "no argument" use case
 if [ "$OPTIND" -lt 2 ]; then
     usage
     exit 1
