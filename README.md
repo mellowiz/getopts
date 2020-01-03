@@ -38,3 +38,8 @@ You've chosen:  G
 OPTARG = FILE
 Done!!!
 ```
+
+###  Non-exhaustive list of useful URLs
+http://www.bahmanm.com/blogs/command-line-options-how-to-parse-in-bash-using-getopt
+https://sookocheff.com/post/bash/parsing-bash-script-arguments-with-shopts/
+http://mywiki.wooledge.org/BashFAQ/035
